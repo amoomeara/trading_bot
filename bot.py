@@ -212,6 +212,7 @@ schedule.every(5).minutes.do(lambda: [run_bot(sym) for sym in symbols])
 
 print("⏳ Bot is now running every 5 minutes... Press Ctrl+C to stop.")
 
+
 try:
     while True:
         schedule.run_pending()
