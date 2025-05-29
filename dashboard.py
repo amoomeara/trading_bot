@@ -75,7 +75,8 @@ else:
 # Auto-refresh every 30 seconds
 st.caption("⏳ Auto-refreshing every 30 seconds...")
 time.sleep(30)
-st.experimental_rerun()
+st.rerun()
+
 
 
 
